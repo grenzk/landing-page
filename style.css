@@ -165,3 +165,46 @@ a {
   font-weight: bold;
   padding-right: 35px;
 }
+
+.fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+.cta-container {
+  background-color: #3882f6;
+  border-radius: 8px;
+  width: 1000px;
+  padding: 45px 0;
+}
+
+.CTA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 122px;
+}
+
+.cta-text1 {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.cta-text2 {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.b2 {
+  background-color: #3882f6;
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 5px 28px;
+}
