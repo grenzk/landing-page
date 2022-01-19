@@ -51,6 +51,7 @@ a {
   display: flex;
   padding: 100px 300px;
   gap: 300px;
+  flex-grow: 1;
 }
 
 .left {
@@ -141,6 +142,7 @@ a {
   padding-top: 150px;
   padding-left: 55px;
   padding-bottom: 100px;
+  flex-grow: 1;
   
 }
 
@@ -171,6 +173,7 @@ a {
   justify-content: center;
   align-items: center;
   padding: 100px 0;
+  flex-grow: 1;
 }
 .cta-container {
   background-color: #3882f6;
@@ -207,4 +210,20 @@ a {
   border: 2px solid #f9faf8;
   border-radius: 8px;
   padding: 5px 28px;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  padding-left: 60px;
+  gap: 8px;
+}
+
+.footer-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
 }
