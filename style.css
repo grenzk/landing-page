@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
-  font-family: Roboto, sans-serif;
+  overflow: scroll;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -25,6 +23,7 @@ body {
 
 .header-logo {
   font-size: 24px;
+  font-weight: 500;
   color: #f9faf8;
 }
 
@@ -40,6 +39,7 @@ a,
 .secondary-text {
   color: #e5e7eb;
   font-size: 18px;
+  font-weight: 300;
 }
 
 a {
@@ -84,6 +84,7 @@ a {
   background-color: #6d747d;
   color: #e5e7eb;
   font-size: 18px;
+  font-weight: 300;
   display: flex;
   flex-shrink: 0;
   justify-content: center;
@@ -126,4 +127,41 @@ a {
   font-size: 18px;
   color: grey;
   padding: 10px 0;
+}
+
+.second {
+  padding-bottom: 100px;
+}
+
+.third {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  padding-left: 55px;
+  padding-bottom: 100px;
+  
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 790px;
+
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.name {
+  font-size: 23px;
+  font-weight: bold;
+  padding-right: 35px;
 }
