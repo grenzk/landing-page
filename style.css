@@ -50,7 +50,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 150px 0;
+  padding: 130px 0;
+  flex: 1;
 }
 
 .first-container {
@@ -126,7 +127,8 @@ a {
 .text {
   text-align: center;
   font-size: 18px;
-  color: grey;
+  font-weight: 300;
+  color: #1f2937;
   padding: 10px 0;
 }
 
@@ -136,7 +138,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  flex: 1;
 }
 
 .third {
@@ -147,7 +149,7 @@ a {
   padding-top: 150px;
   padding-left: 55px;
   padding-bottom: 100px;
-  flex-grow: 1;
+  flex: 1;
 }
 
 .quote {
@@ -176,7 +178,7 @@ a {
   justify-content: center;
   align-items: center;
   padding: 100px 0;
-  flex-grow: 1;
+  flex: 1;
 }
 .cta-container {
   background-color: #3882f6;
