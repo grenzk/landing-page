@@ -24,6 +24,10 @@ This project is about creating an entire web page from scratch. It is part of Th
 - Quote section background color (`#E5E7EB`).
 - 36px light italic `#1F2937` for _Quote Text_.
 
+## Live Demo
+
+Github Page (https://grenzk.github.io/landing-page/)
+
 ## Source
 
 The Odin Project (https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page)
